@@ -1,0 +1,17 @@
+ {
+     "data": [{
+         "exchange": "Coinbase Pro",
+         "url": "http://coinbasepro.com/",
+         "max_maker_fee": 0.5,
+         "max_taker_fee": 0.5,
+         "fiat_deposits": true,
+         "fee_volume_discounts": true
+     }, {
+         "exchange": "Kraken",
+         "url": "http://kraken.com/",
+         "max_maker_fee": 0.16,
+         "max_taker_fee": 0.26,
+         "fiat_deposits": true,
+         "fee_volume_discounts": true
+     }]
+ }
