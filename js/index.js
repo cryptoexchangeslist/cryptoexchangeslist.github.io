@@ -1,4 +1,3 @@
-
 function make_href(url, text) {
     return '<a href="' + url + '" target="_blank">' + text + '</a>';
 }
@@ -25,10 +24,6 @@ fetch('js/data.json')
                 data: 'max_maker_fee'
             }, {
                 data: 'max_taker_fee'
-            }, {
-                data: 'fiat_deposits'
-            }, {
-                data: 'fee_volume_discounts'
             }],
             paging: false,
             searching: false,
@@ -40,8 +35,7 @@ fetch('js/data.json')
                 }
             },
             "order": [
-                [2, "asc"],
-                [3, "desc"]
+                [0, "asc"]
             ]
         });
 

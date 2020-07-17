@@ -1,17 +1,646 @@
- {
-     "data": [{
-         "exchange": "Coinbase Pro",
-         "url": "http://coinbasepro.com/",
-         "max_maker_fee": 0.5,
-         "max_taker_fee": 0.5,
-         "fiat_deposits": true,
-         "fee_volume_discounts": true
-     }, {
-         "exchange": "Kraken",
-         "url": "http://kraken.com/",
-         "max_maker_fee": 0.16,
-         "max_taker_fee": 0.26,
-         "fiat_deposits": true,
-         "fee_volume_discounts": true
-     }]
- }
+{
+  "data": [
+    {
+      "exchange": "ACX",
+      "url": "https://acx.io",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "AOFEX",
+      "url": "https://aofex.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "Bequant",
+      "url": "https://bequant.io",
+      "max_maker_fee": 0.01,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "BigONE",
+      "url": "https://big.one",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "Binance",
+      "url": "https://www.binance.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "Binance Jersey",
+      "url": "https://www.binance.je",
+      "max_maker_fee": 0.05,
+      "max_taker_fee": 0.05
+    },
+    {
+      "exchange": "Binance US",
+      "url": "https://www.binance.us",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "Bit2C",
+      "url": "https://www.bit2c.co.il",
+      "max_maker_fee": 0.5,
+      "max_taker_fee": 0.5
+    },
+    {
+      "exchange": "bitbank",
+      "url": "https://bitbank.cc/",
+      "max_maker_fee": -0.02,
+      "max_taker_fee": 0.12
+    },
+    {
+      "exchange": "BitBay",
+      "url": "https://bitbay.net",
+      "max_maker_fee": 0.3,
+      "max_taker_fee": 0.43
+    },
+    {
+      "exchange": "Bitfinex",
+      "url": "https://www.bitfinex.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "bitFlyer",
+      "url": "https://bitflyer.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "Bitforex",
+      "url": "https://www.bitforex.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "Bithumb",
+      "url": "https://www.bithumb.com",
+      "max_maker_fee": 0.25,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "bitkk",
+      "url": "https://www.bitkk.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "BitMart",
+      "url": "https://www.bitmart.com/",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "BitMax",
+      "url": "https://bitmax.io",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "BitMEX",
+      "url": "https://www.bitmex.com",
+      "max_maker_fee": -0.025,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "Bitpanda Pro",
+      "url": "https://www.bitpanda.com/en/pro",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.15
+    },
+    {
+      "exchange": "Bitso",
+      "url": "https://bitso.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "Bitstamp",
+      "url": "https://www.bitstamp.net",
+      "max_maker_fee": 0.5,
+      "max_taker_fee": 0.5
+    },
+    {
+      "exchange": "Bittrex",
+      "url": "https://bittrex.com",
+      "max_maker_fee": 0.25,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "Bitvavo",
+      "url": "https://bitvavo.com/",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "Bit-Z",
+      "url": "https://www.bitz.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "BL3P",
+      "url": "https://bl3p.eu",
+      "max_maker_fee": 0.25,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "Bleutrade",
+      "url": "https://bleutrade.com",
+      "max_maker_fee": 0.25,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "Braziliex",
+      "url": "https://braziliex.com/",
+      "max_maker_fee": 0.5,
+      "max_taker_fee": 0.5
+    },
+    {
+      "exchange": "BTC-Alpha",
+      "url": "https://btc-alpha.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "BtcBox",
+      "url": "https://www.btcbox.co.jp/",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "BTC Markets",
+      "url": "https://btcmarkets.net",
+      "max_maker_fee": 0.85,
+      "max_taker_fee": 0.85
+    },
+    {
+      "exchange": "BTC Trade UA",
+      "url": "https://btc-trade.com.ua",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "BW",
+      "url": "https://www.bw.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "Bybit",
+      "url": "https://www.bybit.com",
+      "max_maker_fee": -0.025,
+      "max_taker_fee": 0.075
+    },
+    {
+      "exchange": "ByteTrade",
+      "url": "https://www.byte-trade.com",
+      "max_maker_fee": 0.08,
+      "max_taker_fee": 0.08
+    },
+    {
+      "exchange": "CEX.IO",
+      "url": "https://cex.io",
+      "max_maker_fee": 0.16,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "ChileBit",
+      "url": "https://chilebit.net",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "Coinbase",
+      "url": "https://www.coinbase.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "Coinbase Prime",
+      "url": "https://prime.coinbase.com",
+      "max_maker_fee": 0.5,
+      "max_taker_fee": 0.5
+    },
+    {
+      "exchange": "Coinbase Pro",
+      "url": "https://pro.coinbase.com/",
+      "max_maker_fee": 0.5,
+      "max_taker_fee": 0.5
+    },
+    {
+      "exchange": "coincheck",
+      "url": "https://coincheck.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "CoinEx",
+      "url": "https://www.coinex.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "CoinFalcon",
+      "url": "https://coinfalcon.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "coinfloor",
+      "url": "https://www.coinfloor.co.uk",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "CoinMate",
+      "url": "https://coinmate.io",
+      "max_maker_fee": 0.12,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "CoinOne",
+      "url": "https://coinone.co.kr",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "CoinSpot",
+      "url": "https://www.coinspot.com.au",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "CREX24",
+      "url": "https://crex24.com",
+      "max_maker_fee": -0.01,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "Currency.com",
+      "url": "https://www.currency.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "Deribit",
+      "url": "https://www.deribit.com",
+      "max_maker_fee": 0.04,
+      "max_taker_fee": 0.075
+    },
+    {
+      "exchange": "DigiFinex",
+      "url": "https://www.digifinex.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "DSX",
+      "url": "https://dsxglobal.com",
+      "max_maker_fee": 0.15,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "Eterbase",
+      "url": "https://www.eterbase.com",
+      "max_maker_fee": 0.35,
+      "max_taker_fee": 0.35
+    },
+    {
+      "exchange": "EXMO",
+      "url": "https://exmo.me",
+      "max_maker_fee": 0.4,
+      "max_taker_fee": 0.4
+    },
+    {
+      "exchange": "EXX",
+      "url": "https://www.exx.com/",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "FCoin",
+      "url": "https://www.fcoin.com",
+      "max_maker_fee": -0.02,
+      "max_taker_fee": 0.03
+    },
+    {
+      "exchange": "FCoinJP",
+      "url": "https://www.fcoinjp.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "FoxBit",
+      "url": "https://foxbit.com.br/exchange",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "FTX",
+      "url": "https://ftx.com",
+      "max_maker_fee": 0.02,
+      "max_taker_fee": 0.07
+    },
+    {
+      "exchange": "FYB-SE",
+      "url": "https://www.fybse.se",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "Gate.io",
+      "url": "https://gate.io/",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "Gemini",
+      "url": "https://gemini.com/",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.35
+    },
+    {
+      "exchange": "HBTC",
+      "url": "https://www.hbtc.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "HitBTC",
+      "url": "https://hitbtc.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "HollaEx",
+      "url": "https://hollaex.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "Huobi Japan",
+      "url": "https://www.huobi.co.jp",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "Huobi Pro",
+      "url": "https://www.huobi.pro",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "Huobi Russia",
+      "url": "https://www.huobi.com.ru/ru-ru",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "ICE3X",
+      "url": "https://ice3x.com",
+      "max_maker_fee": 0.5,
+      "max_taker_fee": 0.5
+    },
+    {
+      "exchange": "IDEX",
+      "url": "https://idex.market",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "Independent Reserve",
+      "url": "https://www.independentreserve.com",
+      "max_maker_fee": 0.5,
+      "max_taker_fee": 0.5
+    },
+    {
+      "exchange": "INDODAX",
+      "url": "https://www.indodax.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0.3
+    },
+    {
+      "exchange": "itBit",
+      "url": "https://www.itbit.com",
+      "max_maker_fee": -0.03,
+      "max_taker_fee": 0.35
+    },
+    {
+      "exchange": "Kraken",
+      "url": "https://www.kraken.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.36
+    },
+    {
+      "exchange": "KuCoin",
+      "url": "https://www.kucoin.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "Kuna",
+      "url": "https://kuna.io",
+      "max_maker_fee": 0.25,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "LakeBTC",
+      "url": "https://www.lakebtc.com",
+      "max_maker_fee": 0.15,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "Latoken",
+      "url": "https://latoken.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "LBank",
+      "url": "https://www.lbank.info",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "Liquid",
+      "url": "https://www.liquid.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "LiveCoin",
+      "url": "https://www.livecoin.net",
+      "max_maker_fee": 0.18,
+      "max_taker_fee": 0.18
+    },
+    {
+      "exchange": "luno",
+      "url": "https://www.luno.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "Lykke",
+      "url": "https://www.lykke.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "Mercado Bitcoin",
+      "url": "https://www.mercadobitcoin.com.br",
+      "max_maker_fee": 0.3,
+      "max_taker_fee": 0.7
+    },
+    {
+      "exchange": "MixCoins",
+      "url": "https://mixcoins.com",
+      "max_maker_fee": 0.15,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "OceanEx",
+      "url": "https://www.oceanex.pro.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "OKCoin",
+      "url": "https://www.okcoin.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.15
+    },
+    {
+      "exchange": "OKEX",
+      "url": "https://www.okex.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.15
+    },
+    {
+      "exchange": "Paymium",
+      "url": "https://www.paymium.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "Phemex",
+      "url": "https://phemex.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.75
+    },
+    {
+      "exchange": "Poloniex",
+      "url": "https://www.poloniex.com",
+      "max_maker_fee": 0.09,
+      "max_taker_fee": 0.09
+    },
+    {
+      "exchange": "ProBit",
+      "url": "https://www.probit.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "qTrade",
+      "url": "https://qtrade.io",
+      "max_maker_fee": 0.25,
+      "max_taker_fee": 1.5
+    },
+    {
+      "exchange": "RightBTC",
+      "url": "https://www.rightbtc.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "SouthXchange",
+      "url": "https://www.southxchange.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.3
+    },
+    {
+      "exchange": "STEX",
+      "url": "https://www.stex.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "SurBitcoin",
+      "url": "https://surbitcoin.com",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "TheRockTrading",
+      "url": "https://therocktrading.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "TideBit",
+      "url": "https://www.tidebit.com",
+      "max_maker_fee": 0.3,
+      "max_taker_fee": 0.3
+    },
+    {
+      "exchange": "Tidex",
+      "url": "https://tidex.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "TimeX",
+      "url": "https://timex.io",
+      "max_maker_fee": 0.25,
+      "max_taker_fee": 0.5
+    },
+    {
+      "exchange": "Upbit",
+      "url": "https://upbit.com",
+      "max_maker_fee": 0.25,
+      "max_taker_fee": 0.25
+    },
+    {
+      "exchange": "VBTC",
+      "url": "https://vbtc.exchange",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "Waves.Exchange",
+      "url": "https://waves.exchange",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0
+    },
+    {
+      "exchange": "WhiteBit",
+      "url": "https://www.whitebit.com",
+      "max_maker_fee": 0.1,
+      "max_taker_fee": 0.1
+    },
+    {
+      "exchange": "YoBit",
+      "url": "https://www.yobit.net",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    },
+    {
+      "exchange": "Zaif",
+      "url": "https://zaif.jp",
+      "max_maker_fee": 0,
+      "max_taker_fee": 0.3
+    },
+    {
+      "exchange": "ZB",
+      "url": "https://www.zb.com",
+      "max_maker_fee": 0.2,
+      "max_taker_fee": 0.2
+    }
+  ]
+}
